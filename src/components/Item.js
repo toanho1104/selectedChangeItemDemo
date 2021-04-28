@@ -5,7 +5,7 @@ export default class index extends Component {
   render() {
     return (
       <View>
-        <Image source={this.props.item.id} style={styles.imageCon} />
+        <Image source={this.props.item.image} style={styles.imageCon} />
       </View>
     );
   }
