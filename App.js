@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
-import { Text, StyleSheet, View, SafeAreaView } from 'react-native';
+import {
+  Text,
+  StyleSheet,
+  View,
+  SafeAreaView,
+  TouchableOpacity,
+} from 'react-native';
 import { HomeScreen } from './src/screens';
 
 export default class App extends Component {

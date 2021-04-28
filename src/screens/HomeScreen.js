@@ -24,8 +24,10 @@ export default class HomeScreen extends Component {
 
         <View style={{ flexDirection: 'row' }}>
           {dataItems.map((item, index) => {
+            console.log('key', index);
             return (
               <TouchableOpacity
+                key={index}
                 onPress={() => {
                   this.handleClick(item);
                 }}>
